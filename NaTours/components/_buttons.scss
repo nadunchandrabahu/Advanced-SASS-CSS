@@ -71,4 +71,12 @@
       box-shadow: 0 0.5rem 1rem rgba($color: #000000, $alpha: 0.2);
     }
   }
+
+  &--green {
+    color: $color-white;
+    background-color: $color-primary;
+    &::after {
+      background-color: $color-primary;
+    }
+  }
 }
